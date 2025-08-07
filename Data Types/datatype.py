@@ -1,0 +1,51 @@
+x=5
+print(x)
+print(type(x))
+y=9.82
+print(y)
+print(type(y))
+z=8+7j
+print(z)
+print(type(z))
+print(x>y)
+#converting int to float
+a=float(x)
+print(a)
+print(type(a))
+#converting float to complex
+b=complex(a)
+print(b)
+#list
+lst=["ajay",7,34,"aaju"]
+print(lst)
+print(lst[1:3])
+lst1=["good","person"]
+print(lst,lst1)
+print(type(lst))
+#tuple
+tup=("ajay",98,"going")
+tup1=('aaju',45,'vinnu')
+print(tup)
+print(type(tup))
+print(tup[0:2],tup1[0:2])
+# string
+x="hello"
+print(x)
+print(type(x))
+print(x[1:3])
+v="q"
+print(v)
+#range
+h=range(20)
+print(h)
+x=list(h[0:11])
+print(x)
+y=list(h[1:18:2])# printing odd numbers
+print(y)
+d={"ajay":'vivo',"ajju":'iphone',"sarvi":'sansang'}
+print(d)
+print(type(d))
+print(d.keys())
+print(d.values)
+print(d['ajju'])
+print(d.get('ajay'))
